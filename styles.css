@@ -230,3 +230,38 @@ textarea {
         flex-direction: column; /* Stack content on small screens */
     }
 }
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 0.7em; /* Adjust name size on very small screens */
+    }
+    .sidebar {
+        flex: 0 0 30%; /* Sidebar takes 30% of the width */
+        text-align: left;
+    }
+    .contact {
+        font-size: 0.6em;
+    }
+
+    .profile-picture {
+        width: 80px;
+        
+    }
+        button {
+       
+        padding: 1px 2px;
+        font-size: 0.9em;
+    }
+
+    .resume-wrapper {
+       
+        width: 95%;
+        
+        margin: 5px;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileston 5 : Unique Path and Shareable Link</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+</head>
+<body>
+    <div class="form-container">
+        <h1>Dynamic Resume Builder</h1>
+        <form id="resume-form">
+            <!-- Personal Information Section -->
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <!-- Picture Upload -->
+            <label for="picture">Upload Picture:</label>
+            <input type="file" id="picture" name="picture" accept="image/*" required>
+
+            <!-- Education Section -->
+            <h2>Education</h2>
+            <div id="education-section">
+                <div class="education-entry">
+                    <label for="degree-0">Degree:</label>
+                    <input type="text" id="degree-0" name="degree[]" required>
+                    
+                    <label for="institution-0">Institution:</label>
+                    <input type="text" id="institution-0" name="institution[]" required>
+                    
+                    <label for="year-0">Year:</label>
+                    <input type="text" id="year-0" name="year[]" required>
+                </div>
+            </div>
+            <button type="button" id="add-education">Add More Education</button>
+            <br>
+            <!-- Work Experience Section -->
+            <h2>Work Experience</h2>
+            <div id="work-section">
+                <div class="work-entry">
+                    <label for="job-title-0">Job Title:</label>
+                    <input type="text" id="job-title-0" name="jobTitle[]" required>
+                    
+                    <label for="company-0">Company:</label>
+                    <input type="text" id="company-0" name="company[]" required>
+                    
+                    <label for="work-year-0">Year:</label>
+                    <input type="text" id="work-year-0" name="workYear[]" required>
+                    
+                    <label for="description-0">Description:</label>
+                    <textarea id="description-0" name="description[]" required></textarea>
+                </div>
+            </div>
+            <button type="button" id="add-work">Add More Work Experience</button>
+            <br>
+            <!-- Skills Section -->
+            <h2>Skills</h2>
+    <div id="skills-section">
+        <input type="text" id="skill-0" name="skills[]" required>
+    </div>
+    <button type="button" id="add-skill">Add More Skills</button>
+
+    <!-- Button Container -->
+    <div class="form-buttons">
+        <button type="submit" id="generate-button">Generate Resume</button>
+    </div>
+        </form>
+    </div>
+
+    <div class="resume-container" id="resume-output" style="display: none;">
+        <!-- The dynamically generated resume will appear here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

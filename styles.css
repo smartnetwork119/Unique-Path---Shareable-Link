@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+
+
+.form-container, .resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.profile-picture {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
+.resume-wrapper {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
+.name {
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: white;
+}
+
+.contact {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+button {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.content {
+    width: 70%;
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section-content {
+    margin-top: 10px;
+}
+
+.education-item, .work-item {
+    margin-bottom: 20px;
+}
+
+.skill-badge {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px 5px 0 0;
+    font-size: 0.9em;
+}
+
+#generate-button {
+    padding: 10px 20px; /* Adds padding for the button */
+    background-color: #007BFF; /* Example background color */
+    color: white; /* Text color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Adds rounded corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 16px; /* Sets the font size */
+}
+
+#generate-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+.form-buttons {
+    display: flex; /* Enables flexbox layout */
+    justify-content: flex-end; /* Aligns content to the right */
+    margin-top: 20px; /* Adds space above the button */
+}

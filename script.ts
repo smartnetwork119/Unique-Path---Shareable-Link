@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="actions">
             <button id="download-btn">Download as PDF</button>
             <button id="share-btn">Share Resume</button>
-            <p>Shareable URL: <a href="${uniqueUrl}" id="resume-url" target="_blank">${uniqueUrl}</a></p>
+            
         </div>
     </div>`;
 

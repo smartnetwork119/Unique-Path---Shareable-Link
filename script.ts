@@ -142,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
      <!-- Action Buttons -->
         <div class="actions">
             <button id="download-btn">Download as PDF</button>
+            <br>
             <button id="share-btn">Share Resume</button>
             
         </div>

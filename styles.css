@@ -202,8 +202,7 @@ textarea {
 /* Responsive Wrapper */
 .resume-wrapper {
     display: flex;
-    flex-direction: column; /* Mobile-first: Stack vertically */
-}
+    
 
 /* Media Queries for Tablets and Desktops */
 @media (min-width: 768px) {
@@ -227,7 +226,7 @@ textarea {
     }
 
     .resume-wrapper {
-        flex-direction: column; /* Stack content on small screens */
+       
     }
 }
 

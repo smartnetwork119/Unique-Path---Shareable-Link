@@ -137,13 +137,16 @@ document.addEventListener('DOMContentLoaded', () => {
             </section>
         </main>
 
-        <!-- Action Buttons -->
+       
+    </div>
+     <!-- Action Buttons -->
         <div class="actions">
             <button id="download-btn">Download as PDF</button>
             <button id="share-btn">Share Resume</button>
             
         </div>
-    </div>`;
+    
+    `;
 
         resumeOutput.style.display = 'block';
         addToggleSkillsListener();  // Add listener for toggling skills

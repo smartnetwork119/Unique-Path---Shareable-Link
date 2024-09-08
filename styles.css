@@ -43,9 +43,9 @@ input, textarea {
 
 .resume-wrapper {
     display: flex;
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
-    margin: 30px;
+    margin: 20px;
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -202,7 +202,8 @@ textarea {
 /* Responsive Wrapper */
 .resume-wrapper {
     display: flex;
-    
+   
+}
 
 /* Media Queries for Tablets and Desktops */
 @media (min-width: 768px) {
@@ -225,9 +226,7 @@ textarea {
         width: 90%;
     }
 
-    .resume-wrapper {
-       
-    }
+    
 }
 
 @media (max-width: 480px) {
@@ -263,4 +262,7 @@ textarea {
         font-size: 0.9em;
     }
 
+    .actions{
+
+    }
 }

@@ -43,9 +43,9 @@ input, textarea {
 
 .resume-wrapper {
     display: flex;
-    width: 95%;
+    width: 100%;
     max-width: 1200px;
-    margin: 20px;
+    margin: 0px;
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -94,8 +94,8 @@ button:hover {
 }
 
 .content {
-    width: 80%;
-    padding: 10px;
+    width: 70%;
+    padding: 20px;
 }
 
 section {
@@ -263,6 +263,6 @@ textarea {
     }
 
     .actions{
-
+        display: flex;
     }
 }
